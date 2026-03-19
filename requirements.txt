@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+langchain
+chromadb
+sentence-transformers
+transformers
+torch
+scikit-learn
+nltk
+gensim
