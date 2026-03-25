@@ -11,7 +11,7 @@ def clean_text(text):
     return text
 
 def tokenize(text):
-    return nlkt.word_tokenizer(text)
+    return nltk.word_tokenize(text)
 
 def preprocess(text):
     return tokenize(clean_text(text))

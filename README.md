@@ -11,4 +11,4 @@ pip install -r requirements.txt
 python run.py
 
 ## API
-uvicorn api.app:app --reload
+uvicorn api.api:app --reload

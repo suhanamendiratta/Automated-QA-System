@@ -2,7 +2,7 @@ from transformers import BertTokenizer, BertForQuestionAnswering
 from transformers import Trainer, TrainingArguments
 from datasets import load_dataset
 
-dataset = load_dataset("MS MARCO")
+dataset = load_dataset("ms_marco", "v1.1")
 
 tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
 model = BertForQuestionAnswering.from_pretrained("bert-base-uncased")
